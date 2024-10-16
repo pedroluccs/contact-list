@@ -13,7 +13,7 @@ margin: 20px auto;
 padding: 20px;
 border: 1px solid #ccc;
 border-radius: 8px;
-font-size: 40px;
+font-size: 20px;
 height: 20vh;
 font-family: Roboto, sans-serif;
 text-align: center
@@ -24,7 +24,7 @@ margin-bottom: 10px;
 padding: 10px;
 border-radius: 4px;
 border: 1px solid #ccc;
-font-size: 20px;
+font-size: 15px;
 font-family: Roboto, sans-serif;
 margin-right: 12px;
 `;
