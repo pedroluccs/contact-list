@@ -12,6 +12,9 @@ const ItemContainer = styled.div`
   padding: 10px;
   border-bottom: 1px solid #ccc;
   font-size: 20px;
+
+  @media (max-width: 768px) {
+font-size: 12px;
 `;
 
 interface ContactItemProps {

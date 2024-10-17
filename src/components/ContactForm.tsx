@@ -17,6 +17,16 @@ font-size: 20px;
 height: 20vh;
 font-family: Roboto, sans-serif;
 text-align: center
+
+@media (max-width: 768px) {
+display: flex;
+justify-content: center
+text-align: center;
+font-size: 8px
+max-width: 80%;
+margin: 0 auto;
+position: absolute;
+}
 `;
 
 const Input = styled.input`
@@ -27,6 +37,12 @@ border: 1px solid #ccc;
 font-size: 15px;
 font-family: Roboto, sans-serif;
 margin-right: 12px;
+
+@media (max-width: 768px) {
+font-size: 10px;
+padding: 5px;
+
+}
 `;
 
 const Button = styled.button`
@@ -39,6 +55,10 @@ cursor: pointer;
 margin-left: 10px;
 font-family: Roboto, sans-serif;
 font-size: 20px;
+
+@media (max-width: 768px) {
+font-size: 10px;
+padding: 5px;
 `;
 
 export const ButtonRemove = styled.button`
@@ -51,6 +71,10 @@ cursor: pointer;
 margin-left: 10px;
 font-family: Roboto, sans-serif;
 font-size: 20px;
+
+@media (max-width: 768px) {
+font-size: 10px;
+padding: 5px;
 `;
 
 export const ButtonEdit = styled.button`
@@ -63,6 +87,10 @@ cursor: pointer;
 margin-left: 10px;
 font-family: Roboto, sans-serif;
 font-size: 20px;
+
+@media (max-width: 768px) {
+font-size: 10px;
+padding: 5px;
 `;
 
 interface ContactFormProps {

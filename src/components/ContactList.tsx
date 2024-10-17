@@ -11,6 +11,9 @@ const ListContainer = styled.div`
   font-size: 20px;
   font-family: Roboto, sans-serif;
   text-align: center;
+
+  @media (max-width: 768px) {
+font-size: 15px;
 `;
 
 interface ContactListProps {
